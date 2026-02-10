@@ -73,7 +73,7 @@ public class Catalogo_peliculas {
                 System.out.println("Ingrese el nombre a eliminar: ");
                 var eliminar=consola.nextLine();
                 servicioPeliculas.eliminar_pelicula(new Pelicula(eliminar));
-
+                Auditoria_log.registrar("User","Escogio la opcion de eliminar peliculas");
 
             }
             case 5->{
