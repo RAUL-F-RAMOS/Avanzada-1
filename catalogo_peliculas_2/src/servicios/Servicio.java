@@ -33,25 +33,19 @@ public class Servicio implements Iservicio_peliculas
 
 
     }
-    public static void main(String[] args){
-        //objetos
-        var pelicula1=new Pelicula("Oso ted");
-        var pelicula2=new Pelicula("Son como niños 2");
-        var pelicula3=new Pelicula("Megalodon");
-        var pelicula4=new Pelicula("It");
-        var pelicula5=new Pelicula("AVATAR");
-        //creamos servicio
-        Iservicio_peliculas servicioPeliculas=new Servicio();
 
-        servicioPeliculas.agregar_pelicula(pelicula1);
-        servicioPeliculas.agregar_pelicula(pelicula2);
-        servicioPeliculas.agregar_pelicula(pelicula3);
-        servicioPeliculas.agregar_pelicula(pelicula4);
-        servicioPeliculas.agregar_pelicula(pelicula5);
-        //listamos
-        servicioPeliculas.listar_peliculas();
-        //buscar
-        servicioPeliculas.buscar_pelicula(new Pelicula("AVATAR"));
+    @Override
+    public void eliminar_pelicula(Pelicula nombre) {
+// Usamos removeIf para buscar y borrar la película que coincida con el nombre
+        boolean eliminado = peliculas.removeIf(p -> p.getNombre().equalsIgnoreCase(nombre.getNombre()));
 
+        if (eliminado) {
+            System.out.println("La pelicula " + nombre.getNombre() + " ha sido eliminada de la lista");
+            // Registro en tu nueva auditoría profesional
+            auditoria.Auditoria_log.registrar("user", "ELIMINO PELICULA DE MEMORIA: " + nombre.getNombre());
+        } else {
+            System.out.println("Pelicula no encontrada en la lista...");
+        }
     }
+
 }

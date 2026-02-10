@@ -31,13 +31,19 @@ public class Pelicula {
     public int hashCode() {
         return Objects.hashCode(nombre);
     }
+//
+//    @Override
+//    public String toString() {
+//        return "Pelicula{" +
+//                "nombre='" + nombre + '\'' +
+//                '}';
+//    }
 
     @Override
     public String toString() {
-        return "Pelicula{" +
-                "nombre='" + nombre + '\'' +
-                '}';
+        return nombre;
     }
+
 //    public static void main(String[] args){
 //        var pelicula1=new Pelicula("Mama soy raul");
 //        var pelicula2=new Pelicula("La aventuras magicas");
