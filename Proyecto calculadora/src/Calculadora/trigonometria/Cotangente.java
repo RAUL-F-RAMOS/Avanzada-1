@@ -1,0 +1,12 @@
+package Calculadora.trigonometria;
+
+public class Cotangente {
+    double A;
+    public Cotangente(double A){
+        this.A=A;
+    }
+    public void resultado(){
+        double resultado=1/Math.tan(Math.toRadians(A));
+        System.out.println("El resultado es: "+(resultado));
+    }
+}

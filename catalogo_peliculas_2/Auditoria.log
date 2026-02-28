@@ -26,3 +26,27 @@ feb 06, 2026 2:32:58 P. M. auditoria.Auditoria_log registrar
 INFO: Usuario: User | Accion: Escogio la opcion de listar peliculas
 feb 06, 2026 2:33:04 P. M. auditoria.Auditoria_log registrar
 INFO: Usuario: User | Accion: Escogio la opcion de salir
+feb 09, 2026 11:07:20 P. M. auditoria.Auditoria_log registrar
+INFO: Usuario: user | Accion: Se agrego la peli... Godzilla al archivo
+feb 09, 2026 11:07:20 P. M. auditoria.Auditoria_log registrar
+INFO: Usuario: User | Accion: Escogio la opcion de agregar peliculas
+feb 09, 2026 11:07:30 P. M. auditoria.Auditoria_log registrar
+INFO: Usuario: user | Accion: Se agrego la peli... Godzilla 2 al archivo
+feb 09, 2026 11:07:30 P. M. auditoria.Auditoria_log registrar
+INFO: Usuario: User | Accion: Escogio la opcion de agregar peliculas
+feb 09, 2026 11:07:33 P. M. auditoria.Auditoria_log registrar
+INFO: Usuario: user | Accion: Listo las peliculas
+feb 09, 2026 11:07:33 P. M. auditoria.Auditoria_log registrar
+INFO: Usuario: User | Accion: Escogio la opcion de listar peliculas
+feb 09, 2026 11:07:39 P. M. auditoria.Auditoria_log registrar
+INFO: Usuario: User | Accion: Escogio la opcion de buscar pelicula
+feb 09, 2026 11:07:49 P. M. auditoria.Auditoria_log registrar
+INFO: Usuario: User | Accion: ELIMINO LA PELICULA: Godzilla
+feb 09, 2026 11:07:49 P. M. auditoria.Auditoria_log registrar
+INFO: Usuario: User | Accion: Escogio la opcion de eliminar peliculas
+feb 09, 2026 11:07:50 P. M. auditoria.Auditoria_log registrar
+INFO: Usuario: user | Accion: Listo las peliculas
+feb 09, 2026 11:07:50 P. M. auditoria.Auditoria_log registrar
+INFO: Usuario: User | Accion: Escogio la opcion de listar peliculas
+feb 09, 2026 11:08:05 P. M. auditoria.Auditoria_log registrar
+INFO: Usuario: User | Accion: Escogio la opcion de salir
