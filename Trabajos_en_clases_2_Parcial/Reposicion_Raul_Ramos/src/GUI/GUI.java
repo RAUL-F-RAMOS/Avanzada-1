@@ -242,37 +242,7 @@ public class GUI extends javax.swing.JFrame {
     }//GEN-LAST:event_btnInsertarActionPerformed
 
     private void btnActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActualizarActionPerformed
-   try
-        {
-          int id = Integer.parseInt(this.txt_id_libro.getText());
 
-            Entity productoBuscar = factory.search(id);
-
-            if(productoBuscar.isItExists())
-            {
-                String nombre = this.txt_titulo.getText();
-                double precio = Double.parseDouble(this.txt_autor.getText());
-                int cantidad=Integer.parseInt(this.txt_cantidad.getValue().toString());
-                int opcion = JOptionPane.showConfirmDialog(null, "¿Desea actualizar el registro?");
-
-                if(opcion == 0)
-                {
-                    Entity personaActualizar = new Entity(id, nombre,precio,cantidad);
-                    factory.update(personaActualizar);
-                    JOptionPane.showMessageDialog(null, "¡Datos actualizados!");
-                    
-                }
-            }
-            else
-            {
-                JOptionPane.showMessageDialog(null, "El registro no fue encontrado.");
-                //clear();
-            }
-        }
-        catch(Exception e)
-        {
-            JOptionPane.showMessageDialog(null, "Ocurrio un error: " + e.getMessage());
-        }
         // TODO add your handling code here:
     }//GEN-LAST:event_btnActualizarActionPerformed
 
